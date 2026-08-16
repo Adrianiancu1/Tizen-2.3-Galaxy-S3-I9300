@@ -2,8 +2,9 @@
 
 There are 2 important Samsung prototypes/reference devices
 
-  The RD-210, which has the Galaxy S2 HD LTE as a base, codenamed GT-I9500, even though the GT-I9500 is the Galaxy S4 Exynos
-  The RD-PQ, which has the Galaxy S3 as a base, so basically this is your target, this device helps you get Tizen on the Galaxy S3 I9300
+  The RD-210, which has the Galaxy S2 HD LTE as a base, codenamed GT-I9500, even though the GT-I9500 is the Galaxy S4 Exynos.
+  
+  The RD-PQ, which has the Galaxy S3 as a base, so basically this is your target, this device helps you get Tizen on the Galaxy S3 I9300.
 
 
 Anyways, now you know whats inside the devices, so lets get to the main point of the project.
