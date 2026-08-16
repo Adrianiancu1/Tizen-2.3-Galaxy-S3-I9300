@@ -115,8 +115,6 @@ Now, we have to install LThor onto our Linux PC and flash the firmware and newer
 
 `sudo apt install libarchive*`
 
-`sudo apt install libarchive13:i386 libarchive-tools:i386`
-
 `sudo apt update`
 
 `sudo apt purge modemmanager`
