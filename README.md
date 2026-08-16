@@ -113,8 +113,6 @@ Now, we have to install LThor onto our Linux PC and flash the firmware and newer
 
 `sudo apt update`
 
-`sudo apt install libarchive-tools`
-
 `sudo apt install libarchive*`
 
 `sudo apt install libarchive13:i386 libarchive-tools:i386`
