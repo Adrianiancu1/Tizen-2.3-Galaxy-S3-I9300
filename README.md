@@ -167,6 +167,7 @@ DISCONNECT THE PHONE, RUN THE COMMAND AND THEN CONNECT IT!
 reboot device again to download mode
 
 do the same thing, but:
+`lthor tizen-2.3-mobile_20150311.3_mobile_boot.tar`
 
 `lthor tizen-2.3-mobile_20150311.3_mobile_target.tar`
 
