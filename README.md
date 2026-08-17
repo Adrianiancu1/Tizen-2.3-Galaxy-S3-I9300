@@ -214,10 +214,10 @@ bootloader-sboot.tar comes from google drive link
 
 #### You should now have the normal Android SBoot Bootloader
 
-Now, you have to flash PIT file/Firmware with PIT with Odin (3.07 to 3.14 recommended)
+Now, you have to flash PIT file/Firmware with PIT with Odin (3.04 to 3.14 recommended)
 
-If it fails, i recommend doing the i9300-eMMC-TOOLKIT https://avalls.dev/i9300-EMMC-GUIDE/Explanation and doing type 2 brick
+(there are PIT files in my google drive link PITFilesAndOdin.rar)
 
 #### I recommend flashing XXELLA firmware from here: https://drive.google.com/file/d/1eU1JkLVOHHqa8WNxjTUY22u7_Y0wBACo/view
 
-If you have EFS partition, flash that as well and you're back to **Android**! Flash any firmware you want (i dont recommend 4.0.4 if you want to have emmc issues).
+If you have EFS partition, flash that as well and you're back to **Android**! Flash any firmware you want (i recommend 4.0.4 if you want to have emmc issues).
