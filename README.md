@@ -15,15 +15,13 @@ Anyways, now you know whats inside the devices, so lets get to the main point of
 
 ### WARNING(3): YOU NEED UBUNTU/LINUX MINT (DEBIAN) FOR THIS PROJECT (RECOMMENDED: 14.04 TO 20.04)
 
-### WARNING(4): THIS ISNT LIKE A CUSTOM ROM, THE BOOTLOADER IS BASICALLY PERMANENT!!! IF YOU KNOW JTAG/EMMC TOOLKIT THIS CAN BE REVERTED
+### WARNING(4): BEFORE YOU DO THIS, I RECOMMEND YOU MAKE AN EFS PARTITION DUMP SO IF YOU EVER WANT TO GO BACK TO ANDROID YOU HAVE THE EFS ON HAND.
 
 ## **LINKS:**
 
 I have prepared a google drive link so you dont have to find the files yourself:
 
-https://drive.google.com/file/d/19JF-j9O4_j14fGTtIC_hPtPI0Qg5KU7O/view?usp=sharing
-
-https://drive.google.com/file/d/1TVGEgND-660y_pZMiM4vyHQUtIClAuLp/view?usp=drive_link (2nd link is because i forgot dump.bin which is needed for bootloader)
+https://drive.google.com/drive/folders/1mkEBwwzcwN-HtUziokRMepD4O9N9RdzS?usp=drive_link
 
 https://dl.twrp.me/i9300/twrp-2.4.0.0-i9300.tar.html
 
@@ -48,7 +46,7 @@ If you ever want to mess with the device, you will need Tizen Studio (link from 
   
   tizen-2.3-mobile_20150311.3_mobile_boot.tar.gz - its basically the bootloader FOR tizen 2.3
   
-  i9300_emmc_toolbox.zip - Toolbox just in case you brick your device, or you want to go back to Android (I CAN NOT CONFIRM IF GOING BACK TO ANDROID WORKS) https://avalls.dev/i9300-EMMC-GUIDE/Explanation (link from another dev)
+  i9300_emmc_toolbox.zip - Toolbox just in case you brick your device https://avalls.dev/i9300-EMMC-GUIDE/Explanation (link from another dev)
   
   revert_2.2.1_bootloader.tar.gz - Bootloader/pit revert for Tizen 2.2.1 (the special bootloader for 2.2.1 isnt available, but the firmware is)
   
@@ -61,6 +59,10 @@ If you ever want to mess with the device, you will need Tizen Studio (link from 
   s-boot-mmc.zip - Actual bootloader needed, includes uboot, you will flash this with ADB
   
   dump.bin - Forgot but i think its basically params.bin, you also need this like s-boot-mmc.zip
+
+  bootloader-sboot.tar - Android SBoot bootloader made for flashing specifically on lthor
+
+  GT-I9300_PIT.zip - i9300 partition table
 
 ## **BOOTLOADER FLASHING!!**
 
@@ -197,4 +199,25 @@ This command is important though:
 And now try again.      
 
 
-# DONE, YOU SHOULD NOW HAVE TIZEN ON YOUR SAMSUNG GALAXY S3 I9300!                                                                                         
+# DONE, YOU SHOULD NOW HAVE TIZEN ON YOUR SAMSUNG GALAXY S3 I9300!         
+
+
+# CONVERTING BACK TO ANDROID
+
+Go in Download/Thor mode,
+
+Run the command:
+
+`lthor bootloader-sboot.tar`
+
+bootloader-sboot.tar comes from google drive link
+
+#### You should now have the normal Android SBoot Bootloader
+
+Now, you have to flash PIT file/Firmware with PIT with Odin (3.07 to 3.14 recommended)
+
+If it fails, i recommend doing the i9300-eMMC-TOOLKIT https://avalls.dev/i9300-EMMC-GUIDE/Explanation and doing type 2 brick
+
+#### I recommend flashing XXELLA firmware from here: https://drive.google.com/file/d/1eU1JkLVOHHqa8WNxjTUY22u7_Y0wBACo/view
+
+If you have EFS partition, flash that as well and you're back to **Android**! Flash any firmware you want (i dont recommend 4.0.4 if you want to have emmc issues).
