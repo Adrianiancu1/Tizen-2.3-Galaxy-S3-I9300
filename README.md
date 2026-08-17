@@ -45,7 +45,7 @@ If you ever want to mess with the device, you will need Tizen Studio (link from 
   
   tizen-2.3-mobile_20150311.3_mobile_target.tar.gz - The Tizen 2.3 firmware
   
-  tizen-2.3-mobile_20150311.3_mobile_boot.tar.gz - you dont really need this, but its basically the bootloader
+  tizen-2.3-mobile_20150311.3_mobile_boot.tar.gz - its basically the bootloader FOR tizen 2.3
   
   i9300_emmc_toolbox.zip - Toolbox just in case you brick your device, or you want to go back to Android (I CAN NOT CONFIRM IF GOING BACK TO ANDROID WORKS) https://avalls.dev/i9300-EMMC-GUIDE/Explanation (link from another dev)
   
