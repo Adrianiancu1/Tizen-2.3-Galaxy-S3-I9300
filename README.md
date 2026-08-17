@@ -49,7 +49,7 @@ If you ever want to mess with the device, you will need Tizen Studio (link from 
   
   i9300_emmc_toolbox.zip - Toolbox just in case you brick your device, or you want to go back to Android (I CAN NOT CONFIRM IF GOING BACK TO ANDROID WORKS) https://avalls.dev/i9300-EMMC-GUIDE/Explanation (link from another dev)
   
-  revert_2.2.1_bootloader.tar.gz - Bootloader/pit revert for Tizen 2.2.1 (LOST MEDIA)
+  revert_2.2.1_bootloader.tar.gz - Bootloader/pit revert for Tizen 2.2.1 (the special bootloader for 2.2.1 isnt available, but the firmware is)
   
   migrate_2.3_bootloader.tar.gz - Bootloader/pit migration for Tizen 2.3 (you will need this AFTER you flash the bootloader onto the device)
   
