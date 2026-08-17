@@ -62,7 +62,7 @@ If you ever want to mess with the device, you will need Tizen Studio (link from 
 
   bootloader-sboot.tar - Android SBoot bootloader made for flashing specifically on lthor
 
-  GT-I9300_PIT.zip - i9300 partition table
+  PITFilesAndOdin.rar - i9300 partition table (after flashing SBOOT from Android) and Odin 3.04 inside
 
 ## **BOOTLOADER FLASHING!!**
 
