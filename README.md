@@ -204,6 +204,8 @@ And now try again.
 
 # CONVERTING BACK TO ANDROID
 
+### WARNING: FOR NOW DO NOT TRY THIS METHOD, FOR A PERSON IT WORKED BUT FOR ME I BRICKED MY DEVICE!!!
+
 Go in Download/Thor mode,
 
 Run the command:
