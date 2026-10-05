@@ -74,14 +74,13 @@ If you have heimdall, boot to Download Mode and run:
 
 after that, go in recovery mode, stay on the home screen and onto your Linux PC run:
 
-
 `adb devices` (check this)
-
-`adb shell`
 
 `adb push dump.bin /external_sd`
 
 `adb push s-boot-mmc.bin /external_sd`
+
+`adb shell`
 
 `dd if=/external_sd/dump.bin of=/dev/block/mmcblk0`
 
