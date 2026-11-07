@@ -1,4 +1,4 @@
-# **Tizen 2.3 on Samsung Galaxy S3 I9300**
+# DONT USE THIS GUIDE, IT WILL HARD BRICK YOUR PHONE UPON REVERT
 
 There are 2 important Samsung prototypes/reference devices
 
